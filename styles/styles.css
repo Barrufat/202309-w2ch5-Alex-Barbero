@@ -18,6 +18,11 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #333;
+}
+
 p {
   color: #333;
   font-size: 16px;
@@ -30,9 +35,6 @@ p {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ccc;
-}
-
-.titleImg {
 }
 
 .nav-bar {
@@ -69,6 +71,7 @@ p {
 .box-title {
   margin: 30px;
   font-weight: 300;
+  font-size: 35px;
 }
 
 .boxes-container {
@@ -76,7 +79,7 @@ p {
 }
 
 .box {
-  background-color: beige;
+  background-color: rgb(224, 224, 200);
   border-radius: 20px;
   margin: 10px;
   padding: 30px;
@@ -84,8 +87,6 @@ p {
 
 h3.box-subtitle {
   font-weight: 500;
+  font-size: 24px;
   margin-bottom: 10px;
-}
-
-.box-text {
 }
